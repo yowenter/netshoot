@@ -24,4 +24,4 @@ RUN set -ex \
 # apparmor issue #14140
 RUN mv /usr/sbin/tcpdump /usr/bin/tcpdump
 
-CMD ["sh"]
+CMD ["sleep", "100000"]
